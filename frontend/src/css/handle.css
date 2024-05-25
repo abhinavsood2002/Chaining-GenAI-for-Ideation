@@ -1,0 +1,8 @@
+/* handle.css */
+.handle {
+    background: gray;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 20%;
+  }

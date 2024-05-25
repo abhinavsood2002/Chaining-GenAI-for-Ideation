@@ -1,0 +1,98 @@
+/* Variables */
+:root {
+  --aside-bg-color: #fcfcfc;
+  --border-color: #1a192b;
+  --input-node-color: #0041d0;
+  --output-node-color: #ff0072;
+}
+
+/* Container */
+.flow-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+/* Sidebar */
+.flow-container aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: var(--aside-bg-color);
+}
+
+.flow-container aside .description {
+  margin-bottom: 10px;
+}
+
+/* Nodes */
+.flow-container .dndnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.flow-container .dndnode.input {
+  border-color: var(--input-node-color);
+}
+
+.flow-container .dndnode.output {
+  border-color: var(--output-node-color);
+}
+
+/* React Flow Wrapper */
+.flow-container .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .flow-container {
+    flex-direction: row;
+  }
+
+  .flow-container aside {
+    width: 20%;
+    max-width: 250px;
+    z-index: 0;
+  }
+}
+
+/* Additional Classes */
+.flow-container .selectall {
+  margin-top: 10px;
+}
+
+.flow-container .save-button {
+  position: fixed;
+  top: 20px;
+  right: 320px;
+  z-index: 0;
+}
+
+.flow-container .run-button {
+  position: fixed;
+  top: 20px;
+  right: 630px;
+  z-index: 0;
+}
+.flow-container .submit-button {
+  position: fixed;
+  top: 20px;
+  right: 730px;
+  z-index: 0;
+}
+.flow-container .delete-button {
+  position: fixed;
+  top: 20px;
+  right: 430px;
+  z-index: 0;
+}
