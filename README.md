@@ -18,3 +18,6 @@ On the right, you can see a world-building task. The corresponding predefined te
 ## The Chat-based creative writing interface
 ![Chat-based UI](./images/UI_for_chat_based_creative_writing_task.png)
 The chat-based creative interface is simpler, with a conversation in the center, the task right next to it and example queries to replicate the function of predefined templates on the right. 
+
+## Algorithm for Topological sorting
+![algo](./images/algo.png)
