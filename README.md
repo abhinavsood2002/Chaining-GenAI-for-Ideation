@@ -21,3 +21,6 @@ The chat-based creative interface is simpler, with a conversation in the center,
 
 ## Algorithm for Topological sorting
 ![algo](./images/algo.png)
+
+## Disclaimer
+The writing of this code involved the partial use of Generative AI, including ChatGPT and Claude.
